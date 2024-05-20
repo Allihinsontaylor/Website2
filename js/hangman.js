@@ -6,7 +6,7 @@ const notification = document.getElementById('notification-container')
 const finalMessage = document.getElementById('final-message')
 const figureParts = document.querySelectorAll('.figure-part')
 
-const word = ['pingpong', 'tennis', 'golf', 'wizard', 'basketball', 'football', 'soccer']
+const word = ['pink', 'cats', 'summer', 'christmas', 'dance', 'english', 'flower']
 
 let selectedIndex = Math.floor(word.length * Math.random())
 let selectedWord = word[selectedIndex]
